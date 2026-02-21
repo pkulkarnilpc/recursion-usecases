@@ -10,8 +10,16 @@ using namespace std;
 *******************************************************************************/
 
 template <typename T>
-T findMaxRecTail(const T[], const int, int = 0);
+T findMaxRecTail(const T[] arr, const int size, int = 0)
+{
+    // TO DO: Implement your code
+}
 
+template <typename T>
+T findMaxRecBinarySplit(const T[] arr, const int left, const int right)
+{
+    // TO DO: Implement your code
+}
 /*******************************************************************************
  * Description:
  * Starting point of the program. Creates two arrays, one fixed and the other
@@ -36,7 +44,9 @@ int main() {
     // display the maximum
     cout << setfill('-') << setw(40) << "" << endl;
     cout << "Maximum using Recursion: "
-         << findMaxRecTail(myArray, SIZE) << endl
+         << findMaxRecTail(myArray, SIZE) << endl 
+         << "From Binary split:" 
+        << findMaxRecBinarySplit(myArray, 0, SIZE-1)
          << "Should be 130 for the fixed array\n";
     cout << setfill('-') << setw(40) << "" << endl << endl;
 
@@ -62,3 +72,4 @@ int main() {
     // terminate
     return 0;
 }
+
