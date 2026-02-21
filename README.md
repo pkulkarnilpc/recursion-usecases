@@ -1,4 +1,4 @@
-# Week-6-Mon-Lab
+# Recursion Usecases
 Week 6 Mon Lab
 
 This lab consists of two parts.
