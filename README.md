@@ -17,8 +17,11 @@ The `findMaxRecTail` function has 3 parameters:
 
 To continue practicing how to analyze code, you are suggested to perform a time complexity analysis. You can do so as a comment block above the function.
 
-Implement `findMaxRecBinarySplit` function.
+Similarly implement `findMaxRecBinarySplit` function. This function takes 3 parameters
 
+1. `arr` - a constant array containing the elements
+2. `left` - integer that holds the index of leftmost element of `arr`
+3. `right` - integer that holds the index of rightmost element of `arr`
 
 # Part B
 
