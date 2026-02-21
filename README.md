@@ -17,6 +17,9 @@ The `findMaxRecTail` function has 3 parameters:
 
 To continue practicing how to analyze code, you are suggested to perform a time complexity analysis. You can do so as a comment block above the function.
 
+Implement `findMaxRecBinarySplit` function.
+
+
 # Part B
 
 ## Directions
